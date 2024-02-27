@@ -1,0 +1,65 @@
+body{
+
+/* police de caractère */
+    font-family: Arial, Helvetica, sans-serif;
+
+
+/*Taille de la poilice*/
+font-size: 20px;
+color: rgb(0, 0, 0);
+/* Epaisseur de la police */
+font-weight:normal;
+  /* normal | bold */
+
+  /* Style de la police */
+  font-style: normal;
+  /* bormal | italic */
+
+  /* Alignement du texte */
+  text-align: center;
+  /*left | center | right*/
+}
+
+h1{
+    font-size: 40px;
+    font-weight: normal;
+
+
+}
+
+p{
+    /* Majuscule , miniscule */
+text-transform: uppercase;
+/* lowercase, uppercase, capitalize */
+
+
+color: rgb(245, 12, 12);
+color: rgb(61, 25, 25)
+color #555;
+
+}
+
+
+
+ul{
+    list-style: none;
+}
+
+
+/* Style sur le texte (souligné, barré */
+a {
+text-decoration: none;
+/* underline , none, line- through */
+
+color: red;
+}
+
+/* PSEUDO CLASS */
+a:hover{
+    color: blue;
+    font-size: 22px;
+}
+/* La pseudo class : visited signifie que le lien a été cliqué une fois */
+a:visited{
+    color: green;
+}
