@@ -1,0 +1,82 @@
+body{
+ 
+}
+.container{
+
+    color: white;
+    /* La valeur par defaut d'un élément block est {display:block;} */
+    display: block;
+
+    /*permet de mettre une couleur de fond */
+background-color: blue;
+
+/* Hauteur */
+height: 300px ;
+min-height: ;
+
+/* Largeur */
+width: 300px;
+/* Étoile est le selcteur universelle , il cible tous les éléments HTML */
+/* On opert un Reset (on réinitialise les valeurs et comportements par défaut */
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+
+}
+
+/* Margin sert à mettre de la marge extérieur,il y a plein de raccourcis */
+/* margin-top: 50px;
+margin-right: 100px;
+margin-bottom: 50px;
+margin-left: 100px; */
+/* margin: 60px 100px 75px 90px ;
+} */
+/* margin: 50px 100px; */
+/* margin: 200px; */
+
+/* {margin: auto; } permet de centrer un block dans la largeur */
+margin: 50px auto;
+
+/* Padding sert à mettre de la marge interieur */
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 50px;
+padding-left: 80px;
+padding: 20px 50px 60px 70px;
+padding: 30px 60px;
+padding: 40px;
+
+border: 20px solid black;
+
+}
+h1{
+    background-color: pink;
+    color: yellow;
+    width: 500px;
+    text-align: center;
+    margin: 150px auto;
+}
+
+/* appelez l'element circle */
+/* mettez une largeur et une hauteur de 200px */
+/* centrer dans la page */
+/* couleur de fond #eb5858 */
+
+.circle{
+    color: aqua;
+    background-color: #eb5858;
+    height: 200px;
+    width: 200px;
+    margin: 50px auto;
+    padding: 50px 20px;
+    /* La propriété border-radius avec la valeur 50% permet de faire des cercles */
+    border-radius: 50%;
+/* box shadow  */
+    box-shadow:5px 5px 25px rgba(0, 0, 0, 0.5) ;
+   
+}

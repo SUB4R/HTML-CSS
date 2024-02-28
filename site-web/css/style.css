@@ -1,0 +1,103 @@
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* 
+/* components */
+.btn{
+    padding: 5px ;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: red;
+    border-radius: 10px;
+    font-size: small;
+    font-weight: lighter;
+    
+    
+
+}
+
+.btn :hover { 
+    color: grey;
+}
+
+/* section hero */
+.hero {
+   
+    width: 80%;
+    min-height: 300px;
+    margin:  50px auto;
+    padding: 50px ;
+    text-align: center;
+    background-image:url(	https://www.doranco.fr/Files/image_site_doranco/site_dedie_alternance_doranco.jpg) ;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    
+   
+    
+   
+
+    
+
+}
+
+.hero h1 {
+    margin-bottom: 50px;
+}
+.hero span {
+    text-transform:uppercase ;
+}
+
+
+
+
+
+
+body{
+   font-family:Arial, Helvetica, sans-serif ;
+   
+
+}
+
+.about-us{
+background-color: white;
+width: 90%;
+min-height: 300px;
+margin: 50px auto;
+padding: 20px 0;
+text-align: center;
+font-size: 14px;
+
+}
+
+.about-us h1 {
+    text-transform: uppercase;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.about-us p { 
+    margin-bottom: 10px;
+
+}
+
+.about-us a {
+    text-decoration: none;
+    color: red;
+    transition: 0.3s;
+}
+
+.about-us a:hover {
+    color: pink;
+}
